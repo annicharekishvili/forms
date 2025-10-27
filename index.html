@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+  </head>
+  <body>
+    <form>
+      <h1>სარეგისტრაციო ფორმა</h1>
+      <label for="fname">სახელი</label>
+      <input type="text" name="fname" id="fname" placeholder="სახელი" />
+      <label for="lname">გვარი</label>
+      <input type="text" name="lname" id="lname" placeholder="გვარი" />
+      <label for="mobile">მობილურის ნომერი</label>
+      <input
+        type="tel"
+        name="mobile"
+        id="mobile"
+        placeholder="მობილურის ნომერი"
+      />
+      <label for="email">ელფოსტა</label>
+      <input type="email" name="email" id="email" placeholder="ელფოსტა" />
+      <label for="psw">პაროლი</label>
+      <input type="password" name="psw" id="psw" placeholder="პაროლი" />
+      <label for="age">ასაკი</label>
+      <input type="number" name="age" id="age" placeholder="ასაკი" />
+      <label for="date">დაბადების თარიღი</label>
+      <input type="date" name="date" id="date" placeholder="დაბადების თარიღი" />
+      <label for="gender">სქესი</label>
+      <select placeholder="სქესი">
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="male">male</option>
+        <option value="female">female</option>
+      </select>
+
+      <div class="buttons">
+        <button type="submit">გაგზავნა</button>
+        <button type="reset">გასუფთავება</button>
+      </div>
+    </form>
+  </body>
+</html>
